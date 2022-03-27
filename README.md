@@ -1,5 +1,3 @@
-# Refaça para excercitar
-
 ## Updating SKU Specifications with Catalog API 
 
 In our Catalog, [specifications](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/2NQoBv8m4Yz3oQaLgDRagP?_ga=2.198453679.1025854910.1648393546-1926092690.1643042302) are created in the category level. Products and SKUs inherit their specifications from the category they are placed in and all its parent categories. This may lead to some confusion when using our API to create and update SKUs.
