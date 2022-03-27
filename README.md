@@ -4,7 +4,7 @@ In our Catalog, [specifications](https://help.vtex.com/tracks/catalog-101--5AF0X
 
 In this article, we share a few tips to help you update an [SKU Specification](https://help.vtex.com/tracks/catalog-101--5AF0XfnjfWeopIFBgs3LIQ/2NQoBv8m4Yz3oQaLgDRagP?_ga=2.197208495.1025854910.1648393546-1926092690.1643042302#sku-specifications).
 
-#### SKU and its Specification
+### SKU and its Specification
 First, you need to select an SKU and its Specification to update. If you don’t know the Specifications of the SKU, use the [Get SKU Specifications endpoint](https://developers.vtex.com/vtex-rest-api/reference/catalog-api-get-sku-specification). It will retrieve all Specifications indexed on the SKU.
 
 In the example below, we show what the response would look like if your SKU had two specifications to fill in:
@@ -38,7 +38,7 @@ Example: Get SKU Specifications
 >:warning:
 Notice that the response body from this endpoint is an array but you can’t update all at once. You can update only one SKU Specification at a time.
 
-#### Knowing the FieldValueId
+### Knowing the FieldValueId
 After selecting the one Specification to update, use the [Get Specifications](https://developers.vtex.com/vtex-rest-api/reference/catalog-api-get-specification-field-value-fieldid) Values By Field Id endpoint. It allows you to know all the possible values from this Specification as you can only update the FieldValueId from an SKU Specification.
 
 In the example below, we show what the response would look like if your specification had three possible values:
@@ -69,10 +69,8 @@ Example: Get Specifications Values By Field Id
     }
 ]
 ```
-#### Updating the SKU Specification FieldValueId
+### Updating the SKU Specification FieldValueId
 Finally, use the Update [SKU Specification](https://developers.vtex.com/vtex-rest-api/reference/put_api-catalog-pvt-stockkeepingunit-skuid-specification) endpoint to change the FieldValueId from the SKU Specification to the desired new value.
-
-
 
 
 >:warning:
