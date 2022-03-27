@@ -1,4 +1,4 @@
-# Fa-a-e-re-a-para-exercitar
+# Refaça para excercitar
 
 ## Updating SKU Specifications with Catalog API 
 
